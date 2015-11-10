@@ -7,6 +7,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayControllerConsole", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortProvider", "SerialPortProvider\SerialPortProvider.csproj", "{6E26E83C-4F69-4F64-82B4-28677E803CF0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arduino Samples", "Arduino Samples", "{DC07AF3D-C7BA-4F1C-B4A1-0D346394155E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RelayController", "RelayController", "{64C162CA-F0F5-4B11-B880-1C3C4261FF79}"
+	ProjectSection(SolutionItems) = preProject
+		Arduino Samples\RelayController\RelayController.ino = Arduino Samples\RelayController\RelayController.ino
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlinkWithoutDelay", "BlinkWithoutDelay", "{4F2958FB-80EA-431B-99C1-5DF67A58B07F}"
+	ProjectSection(SolutionItems) = preProject
+		Arduino Samples\BlinkWithoutDelay\BlinkWithoutDelay.ino = Arduino Samples\BlinkWithoutDelay\BlinkWithoutDelay.ino
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,5 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64C162CA-F0F5-4B11-B880-1C3C4261FF79} = {DC07AF3D-C7BA-4F1C-B4A1-0D346394155E}
+		{4F2958FB-80EA-431B-99C1-5DF67A58B07F} = {DC07AF3D-C7BA-4F1C-B4A1-0D346394155E}
 	EndGlobalSection
 EndGlobal
