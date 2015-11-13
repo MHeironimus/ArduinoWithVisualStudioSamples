@@ -15,9 +15,13 @@ void setup() {
     // set the digital pin as output:
     pinMode(13, OUTPUT);
     pinMode(A0, OUTPUT);
+    digitalWrite(A0, HIGH);
     pinMode(A1, OUTPUT);
+    digitalWrite(A1, HIGH);
     pinMode(A2, OUTPUT);
+    digitalWrite(A2, HIGH);
     pinMode(A3, OUTPUT);
+    digitalWrite(A3, HIGH);
 }
 
 void loop() {
@@ -45,4 +49,3 @@ void loop() {
         digitalWrite(ledPin, ledState);
     }
 }
-
